@@ -3,7 +3,7 @@
 vim-blockdiag-series provides syntax highlighting and compiler plugin for [blockdiag series](http://blockdiag.com/en) in Vim.  
 blockdiag series include [blockdiag](http://blockdiag.com/en/blockdiag), [seqdiag](http://blockdiag.com/en/seqdiag), [actdiag](http://blockdiag.com/en/actdiag), [nwdiag and rackdiag](http://blockdiag.com/en/nwdiag).
 
-If you need automatic filetype detection, add some settings to
+If you need automatic filetype detection, add some settings to  
 `~/.vim/scripts.vim` on \*nix  
 or  
 `vimfiles/scripts.vim` on Windows  
