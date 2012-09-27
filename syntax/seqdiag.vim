@@ -4,7 +4,7 @@
 " URL:
 " Last Change: 2012 Sep 06 - initial version
 
-" TODO: Highlight separator line
+" TODO: Highlight separator line (Enclosing delimiter)
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -35,13 +35,16 @@ syn keyword  seqType diagonal failed return
 syn keyword  seqType note leftnote rightnote
 
 " Special chars
-syn match    diagKeyChar  "-->"
-syn match    diagKeyChar  "<--"
-syn match    diagKeyChar  "->>"
-syn match    diagKeyChar  "<<-"
-syn match    diagKeyChar  "-->>"
-syn match    diagKeyChar  "<<--"
-syn match    diagKeyChar  "=>"
+syn match    seqKeyChar  "-->"
+syn match    seqKeyChar  "<--"
+syn match    seqKeyChar  "->>"
+syn match    seqKeyChar  "<<-"
+syn match    seqKeyChar  "-->>"
+syn match    seqKeyChar  "<<--"
+syn match    seqKeyChar  "=>"
+
+syn match    seqKeyChar  "==="
+syn match    seqKeyChar  "\.\.\."
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
